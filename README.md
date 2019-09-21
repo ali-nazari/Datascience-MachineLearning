@@ -6,3 +6,6 @@
   * Blog: [Python callable() Function](http://www.trytoprogram.com/python-programming/python-built-in-functions/callable/)
   * Blog: [Class and Instance Attributes](https://www.python-course.eu/python3_class_and_instance_attributes.php) it describes static methods and class methods
   * Blog: [Slots](https://python-course.eu/python3_slots.php) When we design a class, we can use slots to prevent the dynamic creation of attributes. To define slots, you have to define a list with the name \_\_slots__. The list has to contain all the attributes, you want to use.
+
+### <a name='tools'></a>Tools
+ * Blog: [kernels-for-different-environments](https://ipython.readthedocs.io/en/stable/install/kernel_install.html)
