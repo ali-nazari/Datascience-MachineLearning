@@ -12,3 +12,7 @@
 ### <a name='tools'></a>Tools
  * Blog: [kernels-for-different-environments](https://ipython.readthedocs.io/en/stable/install/kernel_install.html)
  * Blog: [How to read data using pandas read_csv](https://honingds.com/blog/pandas-read_csv/#ftoc-mangle_dupe_cols)
+ * Desc: [Copy a large amount of files to another directory]
+          rsync -r --include='*.jpg' --exclude='*' SourcePath DestinationPath
+          rsync -r …  copies the SourcePath directory into DestinationPath recursively.
+          --include='*.prj' --exclude='*' means to copy files matching *.jpg and exclude everything else 
