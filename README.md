@@ -11,3 +11,4 @@
 
 ### <a name='tools'></a>Tools
  * Blog: [kernels-for-different-environments](https://ipython.readthedocs.io/en/stable/install/kernel_install.html)
+ * Blog: [How to read data using pandas read_csv](https://honingds.com/blog/pandas-read_csv/#ftoc-mangle_dupe_cols)
