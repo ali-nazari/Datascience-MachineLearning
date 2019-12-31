@@ -10,6 +10,7 @@
   * Blog: [Python Callable Class Method](https://medium.com/@nunenuh/python-callable-class-1df8e122b30c)
   * Blog: [How objects are called in Keras](https://adaickalavan.github.io/tensorflow/how-objects-are-called-in-keras/)
   * Blog: [Function Annotations in Python](https://www.geeksforgeeks.org/function-annotations-python/)
+  * Blog: [10 Simple hacks to speed up your Data Analysis in Python](https://towardsdatascience.com/10-simple-hacks-to-speed-up-your-data-analysis-in-python-ec18c6396e6b)
 
 ### <a name='tools'></a>Tools
  * Blog: [kernels-for-different-environments](https://ipython.readthedocs.io/en/stable/install/kernel_install.html)
