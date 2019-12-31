@@ -1,5 +1,6 @@
 ### <a name='course'></a>Python Courses
- * Blog:[Python Course](https://www.python-course.eu/index.php)
+ * Blog: [Python Course](https://www.python-course.eu/index.php)
+ * Blog: [49 Essential Resources To Learn Python](https://code-love.com/2019/06/03/49-essential-resources-to-learn-python/)
  
 ### <a name='pathon'></a>Interesting materials for Python Programming
   * Blog: [OOP in Python](https://www.python-course.eu/python3_object_oriented_programming.php)
