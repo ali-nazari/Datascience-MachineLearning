@@ -26,4 +26,4 @@
          <br/>conda install -c menpo dlib
          
  * Blog: [Install OpenCV from source](https://docs.opencv.org/master/d2/de6/tutorial_py_setup_in_ubuntu.html)
- * Blog: [http://zetcode.com/python/pillow/](Pillow Tutorial): Pillow is a pythonic package for image processing
+ * Blog: [Pillow Tutorial](http://zetcode.com/python/pillow/): Pillow is a pythonic package for image processing
