@@ -22,3 +22,8 @@
           
  * Blog: [Jupyter Lab: Evolution of the Jupyter Notebook](https://towardsdatascience.com/jupyter-lab-evolution-of-the-jupyter-notebook-5297cacde6b)
  * Blog: [28 Jupyter Notebook Tips, Tricks, and Shortcuts](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
+ * Blog: [Install pre-compiled dlib package]:
+         <br/>conda install -c menpo dlib
+         
+ * Blog: [Install OpenCV from source](https://docs.opencv.org/master/d2/de6/tutorial_py_setup_in_ubuntu.html)
+ * Blog: [http://zetcode.com/python/pillow/](Pillow Tutorial): Pillow is a pythonic package for image processing
