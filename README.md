@@ -21,3 +21,4 @@
           <br/>--include='*.jpg' --exclude='\*' means to copy files matching *.jpg and exclude everything else 
           
  * Blog: [Jupyter Lab: Evolution of the Jupyter Notebook](https://towardsdatascience.com/jupyter-lab-evolution-of-the-jupyter-notebook-5297cacde6b)
+ * Blog: [28 Jupyter Notebook Tips, Tricks, and Shortcuts](https://www.dataquest.io/blog/jupyter-notebook-tips-tricks-shortcuts/)
