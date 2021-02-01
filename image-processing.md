@@ -34,3 +34,17 @@ If your shape is <pre>(1, n_points, n_dimensions)</pre> then you want to swap ax
 you must use  <pre>points = np.transpose(points, (1, 0, 2))</pre> 
 to put the axes 1 first, then axis 0, then axis 2.
 
+## Extraction of x,y coordinates from OpenCV “cv2.keypoint” object:
+
+You can use:
+<pre>
+import numpy as np
+
+points = np.float([kp[idx].pt for idx in range(0, len(kp))]).reshape(-1, 1, 2)
+</pre>
+points will be an array of keypoints.
+
+another way:
+<pre>
+points = cv2.KeyPoint.convert(kp)
+</pre>
