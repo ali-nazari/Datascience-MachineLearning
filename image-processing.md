@@ -6,7 +6,7 @@ The input points need to be an array with the shape (n_points, 1, n_dimensions).
 
 If you have an array that has the shape (n_points, n_dimensions) you can expand it with 
 
-1. First Solution with np.newaxis:
+1. First Solution with **np.newaxis**:
 
 <pre>
 >>> points = np.array([[1, 2], [3, 4], [5, 6], [7, 8]])
@@ -17,7 +17,7 @@ If you have an array that has the shape (n_points, n_dimensions) you can expand 
 (4, 1, 2)
 </pre>
 
-2. Second Solution with np.expand_dims():
+2. Second Solution with **np.expand_dims()**:
 
 <pre>
 >>> points = np.array([[1, 2], [3, 4], [5, 6], [7, 8]])
@@ -28,8 +28,9 @@ If you have an array that has the shape (n_points, n_dimensions) you can expand 
 (4, 1, 2)
 </pre>
 
-3. Third Solution with np.transpose()):
-if your shape is <pre>(1, n_points, n_dimensions)</pre> then you want to swap axis 0 with axis 1 to get <pre>(n_points, 1, n_dimensions)</pre>, 
-so  <pre>points = np.transpose(points, (1, 0, 2))</pre> 
-would change the axes to put axis 1 first, then axis 0, then axis 2, so the new shape would be correct.
+3. Third Solution with **np.transpose())**:
+
+If your shape is <pre>(1, n_points, n_dimensions)</pre> then you want to swap axis 0 with axis 1 to get <pre>(n_points, 1, n_dimensions)</pre>, 
+you must use  <pre>points = np.transpose(points, (1, 0, 2))</pre> 
+to put the axes 1 first, then axis 0, then axis 2.
 
