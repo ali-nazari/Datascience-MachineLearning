@@ -1,6 +1,12 @@
+* [Feature Detection and Description](#Feature_Detection_Description)
 * [How to install dlib](#dlib)
 * [Structure of point locations in OpenCV functions](#structure_points_cv)
 * [Extraction of x,y coordinates from OpenCV “cv2.keypoint” object](#extraction_points_from_keypoints)
+
+# <a name="Feature_Detection_Description"/>[Feature Detection and Description](https://docs.opencv.org/4.5.0/db/d27/tutorial_py_table_of_contents_feature2d.html)
+
+Tutorials for feature detections and their descriptions
+
 
 # <a name="dlib"/>[How to install dlib v19.9 or newer (w/ python bindings) from github on macOS and Ubuntu](https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf)
 
