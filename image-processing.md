@@ -1,35 +1,39 @@
 ## [How to install dlib v19.9 or newer (w/ python bindings) from github on macOS and Ubuntu](https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf)
 
 Pre-reqs:
+- Have Python 3 installed. On macOS, this could be installed from homebrew or even via standard 
+  Python 3.6 downloaded installer from https://www.python.org/download. On Linux, just use your
+  package manager.
+- On macOS:
+  - Install XCode from the Mac App Store (or install the XCode command line utils).
+  - Have [homebrew](https://brew.sh/) installed
+- On Linux:
+  - For a full list of apt packages required, check out the [example Dockerfile](https://github.com/ageitgey/face_recognition/blob/master/Dockerfile#L6-L34) and copy what's installed there.
+  - These instructions assume you are using Ubuntu 16.04 or newer. If you are using 14.04, you can try [these installation instructions instead](https://github.com/ageitgey/face_recognition/issues/120) to work around the old CMake version.
+- These instructions assume you don't have an nVidia GPU and don't have Cuda and cuDNN installed and don't want
+  GPU acceleration (since none of the current Mac models support this).
 
-Have Python 3 installed. On macOS, this could be installed from homebrew or even via standard Python 3.6 downloaded installer from https://www.python.org/download. On Linux, just use your package manager.
-
-On macOS:
-Install XCode from the Mac App Store (or install the XCode command line utils).
-Have homebrew installed
-
-On Linux:
-For a full list of apt packages required, check out the example Dockerfile and copy what's installed there.
-These instructions assume you are using Ubuntu 16.04 or newer. If you are using 14.04, you can try these installation instructions instead to work around the old CMake version.
-
-These instructions assume you don't have an nVidia GPU and don't have Cuda and cuDNN installed and don't want GPU acceleration (since none of the current Mac models support this).
 Clone the code from github:
-<pre>
+
+```bash
 git clone https://github.com/davisking/dlib.git
-</pre>
+```
+
 Build the main dlib library (optional if you just want to use Python):
 
-<pre>
+```bash
 cd dlib
 mkdir build; cd build; cmake ..; cmake --build .
-</pre>
+```
 
 Build and install the Python extensions:
-<pre>
+
+```bash
 cd ..
 python3 setup.py install
-</pre>
-At this point, you should be able to run python3 and type import dlib successfully.
+```
+
+At this point, you should be able to run `python3` and type `import dlib` successfully.
 
 ## Structure of point locations in OpenCV functions([Reference](https://stackoverflow.com/questions/47402445/need-help-in-understanding-error-for-cv2-undistortpoints/47403282#47403282))
 
