@@ -1,6 +1,8 @@
 * [How to install dlib](#dlib)
+* [Structure of point locations in OpenCV functions](#structure_points_cv)
+* [Extraction of x,y coordinates from OpenCV “cv2.keypoint” object](#extraction_points_from_keypoints)
 
-## <a name="dlib"/>[How to install dlib v19.9 or newer (w/ python bindings) from github on macOS and Ubuntu](https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf)
+# <a name="dlib"/>[How to install dlib v19.9 or newer (w/ python bindings) from github on macOS and Ubuntu](https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf)
 
 Pre-reqs:
 - Have Python 3 installed. On macOS, this could be installed from homebrew or even via standard 
@@ -37,7 +39,7 @@ python3 setup.py install
 
 At this point, you should be able to run `python3` and type `import dlib` successfully.
 
-## Structure of point locations in OpenCV functions([Reference](https://stackoverflow.com/questions/47402445/need-help-in-understanding-error-for-cv2-undistortpoints/47403282#47403282))
+# <a name='structure_points_cv'/> Structure of point locations in OpenCV functions([Reference](https://stackoverflow.com/questions/47402445/need-help-in-understanding-error-for-cv2-undistortpoints/47403282#47403282))
 
 The input points need to be an array with the shape (n_points, 1, n_dimensions). So if you have 2D coordinates, they should be in the shape (n_points, 1, 2). Or for 3D coordinates they should be in the shape (n_points, 1, 3). This is true for most OpenCV functions. AFAIK, this format will work for all OpenCV functions, while some few OpenCV functions will also accept points in the shape (n_points, n_dimensions). I find it best to just keep everything consistent and in the format (n_points, 1, n_dimensions).
 
@@ -73,7 +75,7 @@ If your shape is <pre>(1, n_points, n_dimensions)</pre> then you want to swap ax
 you must use  <pre>points = np.transpose(points, (1, 0, 2))</pre> 
 to put the axes 1 first, then axis 0, then axis 2.
 
-## Extraction of x,y coordinates from OpenCV “cv2.keypoint” object:
+# <a name="extraction_points_from_keypoints"/> Extraction of x,y coordinates from OpenCV “cv2.keypoint” object:
 
 You can use:
 <pre>
