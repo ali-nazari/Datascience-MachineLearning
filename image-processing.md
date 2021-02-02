@@ -1,4 +1,6 @@
-## [How to install dlib v19.9 or newer (w/ python bindings) from github on macOS and Ubuntu](https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf)
+* [How to install dlib](#dlib)
+
+## <a name="dlib"/>[How to install dlib v19.9 or newer (w/ python bindings) from github on macOS and Ubuntu](https://gist.github.com/ageitgey/629d75c1baac34dfa5ca2a1928a7aeaf)
 
 Pre-reqs:
 - Have Python 3 installed. On macOS, this could be installed from homebrew or even via standard 
