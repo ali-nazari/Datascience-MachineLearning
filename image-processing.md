@@ -11,7 +11,7 @@
 - [Instal OpenCV in Ananconda]:
 ```bash
   conda install -c conda-forge opencv
-’’’
+```
 
 # <a name="Feature_Detection_Description"/>[Feature Detection and Description](https://docs.opencv.org/4.5.0/db/d27/tutorial_py_table_of_contents_feature2d.html)
 
@@ -59,7 +59,7 @@ At this point, you should be able to run `python3` and type `import dlib` succes
 ## Install pre-compiled dlib package: 
 ```bash
 conda install -c menpo dlib
-’’’
+```
 
 # <a name='structure_points_cv'/> [Structure of point locations in OpenCV functions](https://stackoverflow.com/questions/47402445/need-help-in-understanding-error-for-cv2-undistortpoints/47403282#47403282)
 
@@ -118,4 +118,4 @@ points = cv2.KeyPoint.convert(kp)
 - Pactch extraction using the Extract_patches package(https://github.com/ducha-aiki/extract_patches):
 ```bash
 pip install extract_patches
-’’’
+```
