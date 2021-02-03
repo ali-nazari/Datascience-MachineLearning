@@ -1,8 +1,17 @@
+* [Install OpenCV](#install_opencv)
 * [Feature Detection and Description](#Feature_Detection_Description)
 * [Open Source Implementation of SIFT](#opensift)
 * [How to install dlib](#dlib)
 * [Structure of point locations in OpenCV functions](#structure_points_cv)
 * [Extraction of x,y coordinates from OpenCV “cv2.keypoint” object](#extraction_points_from_keypoints)
+* [Extraction of Patches from an Image](#patches)
+
+# <a name="install_opencv"/>Install OpenCV
+- [Install OpenCV-Python in Ubuntu](https://docs.opencv.org/master/d2/de6/tutorial_py_setup_in_ubuntu.html)
+- [Instal OpenCV in Ananconda]:
+```bash
+  conda install -c conda-forge opencv
+’’’
 
 # <a name="Feature_Detection_Description"/>[Feature Detection and Description](https://docs.opencv.org/4.5.0/db/d27/tutorial_py_table_of_contents_feature2d.html)
 
@@ -46,6 +55,11 @@ python3 setup.py install
 ```
 
 At this point, you should be able to run `python3` and type `import dlib` successfully.
+
+## Install pre-compiled dlib package: 
+```bash
+conda install -c menpo dlib
+’’’
 
 # <a name='structure_points_cv'/> [Structure of point locations in OpenCV functions](https://stackoverflow.com/questions/47402445/need-help-in-understanding-error-for-cv2-undistortpoints/47403282#47403282)
 
@@ -97,3 +111,11 @@ another way:
 <pre>
 points = cv2.KeyPoint.convert(kp)
 </pre>
+
+# <a name="patches"/>Extraction of Patches from an Image:
+
+- Image patch extraction using scikit-learn(https://scikit-learn.org/stable/modules/feature_extraction.html#image-feature-extraction)
+- Pactch extraction using the Extract_patches package(https://github.com/ducha-aiki/extract_patches):
+```bash
+pip install extract_patches
+’’’
