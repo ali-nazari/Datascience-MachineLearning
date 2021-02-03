@@ -8,7 +8,7 @@
 
 # <a name="install_opencv"/>Install OpenCV
 - [Install OpenCV-Python in Ubuntu](https://docs.opencv.org/master/d2/de6/tutorial_py_setup_in_ubuntu.html)
-- [Instal OpenCV in Ananconda]:
+- Instal OpenCV in Ananconda:
 ```bash
   conda install -c conda-forge opencv
 ```
@@ -114,8 +114,8 @@ points = cv2.KeyPoint.convert(kp)
 
 # <a name="patches"/>Extraction of Patches from an Image:
 
-- Image patch extraction using scikit-learn(https://scikit-learn.org/stable/modules/feature_extraction.html#image-feature-extraction)
-- Pactch extraction using the Extract_patches package(https://github.com/ducha-aiki/extract_patches):
+- [Image patch extraction using scikit-learn](https://scikit-learn.org/stable/modules/feature_extraction.html#image-feature-extraction)
+- [Pactch extraction using the Extract_patches package](https://github.com/ducha-aiki/extract_patches):
 ```bash
 pip install extract_patches
 ```
