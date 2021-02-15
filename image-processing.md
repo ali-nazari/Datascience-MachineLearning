@@ -57,6 +57,11 @@ python3 setup.py install
 At this point, you should be able to run `python3` and type `import dlib` successfully.
 
 ## Install pre-compiled dlib package: 
+If you do not want to install from source code, you can install its pre-compiled package from the <b>conda-forge</b> or <b>menpo</b> channel.
+```bash
+conda install -c conda-forge dlib
+```
+or
 ```bash
 conda install -c menpo dlib
 ```
