@@ -12,6 +12,13 @@
   * Blog: [Function Annotations in Python](https://www.geeksforgeeks.org/function-annotations-python/)
   * Blog: [10 Simple hacks to speed up your Data Analysis in Python](https://towardsdatascience.com/10-simple-hacks-to-speed-up-your-data-analysis-in-python-ec18c6396e6b)
 
+
+### <a name='pitfalls'></a>Common pitfalls and recommended practices
+ * Blog: [Common pitfalls and recommended practices](https://scikit-learn.org/stable/common_pitfalls.html)
+ * Blog: [Data Leakage](https://en.wikipedia.org/wiki/Leakage_(machine_learning))
+ * Paper: [Leakage in data mining: Formulation, detection, and avoidance](https://dl.acm.org/doi/10.1145/2382577.2382579) by Shachar Kaufman and et al.
+ * Blog: [Data Leakage on the Kaggle Wiki](https://www.kaggle.com/wiki/Leakage)
+
 ### <a name='tools'></a>Tools
  * Blog: [kernels-for-different-environments](https://ipython.readthedocs.io/en/stable/install/kernel_install.html)
  * Blog: [How to read data using pandas read_csv](https://honingds.com/blog/pandas-read_csv/#ftoc-mangle_dupe_cols)
@@ -27,3 +34,4 @@
          
  * Blog: [Install OpenCV from source](https://docs.opencv.org/master/d2/de6/tutorial_py_setup_in_ubuntu.html)
  * Blog: [Pillow Tutorial](http://zetcode.com/python/pillow/): Pillow is a pythonic package for image processing
+
