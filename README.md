@@ -39,3 +39,15 @@
  * Blog: [Install OpenCV from source](https://docs.opencv.org/master/d2/de6/tutorial_py_setup_in_ubuntu.html)
  * Blog: [Pillow Tutorial](http://zetcode.com/python/pillow/): Pillow is a pythonic package for image processing
 
+<h2 tabindex="-1" dir="auto">
+<a id="useful-cheatsheets" class="anchor" aria-hidden="true" href="#useful-cheatsheets"></a>
+Useful Cheatsheets
+</h2>
+<ul dir="auto">
+<li><a href="https://docs.conda.io/projects/conda/en/latest/_downloads/843d9e0198f2a193a3484886fa28163c/conda-cheatsheet.pdf" rel="nofollow">Conda cheatsheet</a></li>
+<li>Pythonic code: <a href="https://www.python.org/dev/peps/pep-0008/" rel="nofollow">PEP8 style</a></li>
+<li><a href="https://numpydoc.readthedocs.io/en/latest/format.html" rel="nofollow">Numpy docstring</a></li>
+<li>Markdown <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet">cheatsheet</a></li>
+<li>Git <a href="https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet" rel="nofollow">cheatsheet</a></li>
+<li><a href="https://gitmoji.carloscuesta.me/" rel="nofollow">Gitmoji</a></li>
+</ul>
